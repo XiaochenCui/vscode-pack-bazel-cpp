@@ -1,0 +1,26 @@
+{
+  "name": "cpp-bazel",
+  "displayName": "cpp-bazel",
+  "description": "for cpp + bazel project",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    // syntax highlighting for bazel BUILD files
+    "BazelBuild.vscode-bazel",
+    // intellisense (code completion, go to definition) for c++ source code
+    "llvm-vs-code-extensions.vscode-clangd",
+    // lint for c++ source code
+    "mine.cpplint",
+    // add copyright to the header of the file (to comply with google code style)
+    "minherz.copyright-inserter",
+    // debug c++ code with lldb
+    "vadimcn.vscode-lldb",
+    // discover google test binaries
+    "matepek.vscode-catch2-test-adapter",
+  ]
+}
